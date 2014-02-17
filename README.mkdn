@@ -1,34 +1,6 @@
 MoKee OpenSource
 ===========
 
-Submitting Patches
-------------------
-Patches are always welcomed!  Please submit your patches via MoKee Gerrit! You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    mkgerrit <for(new)/changes(patch set)> <branch/change-id> 
-
-    repo start kk_mkt .
-    (Make your changes and commit)
-    repo upload .
-
-*Note: "." means current directory*
-
-For more help on using repo, use this command: 
-
-    repo help upload
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel).
-
-Commit your patches in a single commit. Squash multiple commits using this command:     
-
-    git rebase -i HEAD~<# of commits>
-
-To view the status of your and others' patches, visit [MoKee Code Review](http://review.mfunz.com/)
-
-
 Getting Started
 ---------------
 
@@ -37,11 +9,8 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the MoKee trees, use a command like this:
 
-    repo init -u https://github.com/MoKee/android.git -b kk_mkt
+    repo init -u git://github.com/TeamNova/android.git -b mokee-4.4
 
- or
-
-    repo init -u ssh://[username]@review.mfunz.com:29418/MoKee/android.git -b kk_mkt
 
 Then to sync up:
 
@@ -70,22 +39,22 @@ then feel free to use the build script:
 * sync - do 'repo sync' before compile
 
 ####Example:
-Your device is maguro and if you run without any variable, it will clean up your build.prop only:
+Your device is janice and if you run without any variable, it will clean up your build.prop only:
 
-    ./mk maguro
+    ./mk janice
 
 You want to sync source before starting:
 
-    ./mk maguro sync
+    ./mk janice sync
 
 Do a clean compile without deleting whole prebuilt libs:
 
-    ./mk maguro clean
+    ./mk janice clean
 
 You are fixing a build and want to resume the build, it will build quicker without any cleaning up:
 
-    ./mk maguro fix
+    ./mk janice fix
 
 You can also do it all at once:
 
-    ./mk maguro sync clean
+    ./mk janice sync clean
