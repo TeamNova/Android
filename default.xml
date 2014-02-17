@@ -8,9 +8,6 @@
   <remote  name="cyanogen"
            fetch="git://review.mfunz.com"
            review="review.mfunz.com" />
-	   
-  <remote  name="github"
-           fetch="https://github.com" />
 
   <remote  name="local"
            fetch="git://review.mfunz.com/"
@@ -448,9 +445,9 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" remote="cyanogen" revision="refs/heads/cm-11.0" name="github/CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" remote="cyanogen" revision="refs/heads/cm-11.0" name="github/CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
-  <!-- MoKee Bootable Start -->
-  <project path="bootable/recovery" name="MoKee/android_bootable_recovery" />
-  <!-- MoKee Bootable End -->
+  <!-- CWM Bootable Start -->
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="cm-11.0" />
+  <!-- CWM Bootable End -->
 
   <!-- MoKee Development Start -->
   <project path="development" name="MoKee/android_development" />
