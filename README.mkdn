@@ -1,0 +1,17 @@
+CarbonROM
+===========
+
+
+Getting Started
+---------------
+
+To get started with Android/Carbon, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the CyanogenMod trees, use a command like this:
+
+    repo init -u git://github.com/TeamNova/android.git -b carbon-4.4
+
+Then to sync up:
+
+    repo sync
