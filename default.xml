@@ -519,5 +519,13 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="MoKee/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="device/generic/goldfish" name="MoKee/android_device_generic_goldfish" groups="pdk" />
   <!-- Other End -->
-
+  
+  <!-- Codina and Janice's repos start -->
+  <project path="device/samsung/codina" name="TeamNova/android_device_samsung_codina" revision="carbon-4.4" />
+  <project path="device/samsung/janice" name="TeamNova/android_device_samsung_janice" revision="carbon-4.4" />
+  <project path="device/samsung/u8500-common" name="TeamNova/android_device_samsung_u8500-common" revision="carbon-4.4" />
+  <project path="vendor/samsung/u8500-common" name="TeamNova/android_vendor_samsung_u8500-common" revision="kk" />
+  <project path="hardware/u8500" name="TeamNova/android_hardware_u8500" revision="kk" />
+  <project path="kernel/samsung/u8500" name="TeamNova/Samsung_STE_Kernel" revision="3.0.101" />
+  <!-- Codina and Janice's repos end -->
 </manifest>
