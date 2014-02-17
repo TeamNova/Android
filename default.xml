@@ -481,4 +481,8 @@
   <project path="vendor/samsung/u8500-common" name="TeamNova/android_vendor_samsung_u8500-common" revision="kk" />
   <project path="hardware/u8500" name="TeamNova/android_hardware_u8500" revision="kk" />
   <project path="kernel/samsung/u8500" name="TeamNova/Samsung_STE_Kernel" revision="3.0.101" />
+  <project path="STE_Patches" name="STE_Patches" revision="kk" >
+  <copyfile src="ste_patch.sh" dest="ste_patch.sh" />
+  <copyfile src="ste_camfix.sh" dest="ste_camfix.sh" />
+  </project>
 </manifest>
