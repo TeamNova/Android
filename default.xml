@@ -533,7 +533,7 @@
   <!-- Codina and Janice's repos end -->
   
   <!-- STE Patches start -->
-  <project path="STE_Patches" name="STE_Patches" revision="kk" >
+  <project path="STE_Patches" name="TeamNova/STE_Patches" revision="master" >
   <copyfile src="ste_patch.sh" dest="ste_patch.sh" />
   <copyfile src="ste_camfix.sh" dest="ste_camfix.sh" />
   </project>
