@@ -533,7 +533,7 @@
   <!-- Codina and Janice's repos end -->
   
   <!-- STE Patches start -->
-  <project path="STE_Patches" name="TeamNova/STE_Patches" revision="master" >
+  <project path="STE_Patches" name="TeamNova/STE_Patches" revision="android-4.4" >
   <copyfile src="ste_patch.sh" dest="ste_patch.sh" />
   <copyfile src="ste_camfix.sh" dest="ste_camfix.sh" />
   </project>
